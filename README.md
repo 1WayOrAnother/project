@@ -2,7 +2,7 @@ It's the the website/survey helping new students to choose their track/path for 
 ========================================
 Paul Kotok
 
-Project Portfolio, Dec. 1. 2017
+Project Webpage/Survey, Dec. 1. 2017
 
 Description
 
@@ -18,7 +18,7 @@ here is the direct link to the portfolio page: []
 
 Known issues
 
-The website is in the raw stage and needs to be modified and survey/menu  to be ajusted according to the specifiyed rules.
+The website is in the raw stage and needs to be modified and survey/menu  to be ajusted according to the specific rules.
 
 Support and Contact
 
