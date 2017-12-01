@@ -13,7 +13,7 @@ Instructions
 Access this Repository on my portfolio page.
 You can clone them from my GitHub repository or view them from here.
 Make sure your have "Atom" text editor set up and your own GitHub account, and terminal to work correctly with this files.
-here is the direct link to the portfolio page: []
+here is the direct link to the portfolio page: [https://github.com/1WayOrAnother/project]
 
 
 Known issues
