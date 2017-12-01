@@ -5,13 +5,16 @@ body{
 }
 
 .jumbotron{
-  background-color: #536971;
+  background-color: #525971;
   color: white;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 60px;
 }
+btn{
+  margin-right: 20px;
 
+}
 form{
   margin-left: auto;
   margin-right: auto;
