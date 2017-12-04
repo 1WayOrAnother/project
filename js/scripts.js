@@ -1,11 +1,5 @@
-//Here is the Backend logic.
-var add = function(progPath1, progPath2, progPath3, progPath4, progPath5) {
-  return progPath1, progPath2, progPath3, progPath4, progPath5;
-};
 
-
-// This is User interface.
-$(document).ready(function) {
+$(document).ready(function() {
 $("form#trackform").submit(function(event) {
 
 
@@ -13,16 +7,16 @@ $("form#trackform").submit(function(event) {
   var progPath2 = parseInt($("#job").val());
   var progPath3 = parseInt($("#value").val());
   var progPath4 = parseInt($("#character").val());
-  var progPath5 = parseInt($("OS").val());
+  var progPath5 = parseInt($("#OS").val());
 
-  var progPath = add(progPath1, progPath2, progPath3, progPath4, progPath5);
+  var progPath = progPath1 + progPath2 + progPath3 + progPath4 + progPath5;
 
   //
-
+//Here is the Backend logic.
   // if {
   //
   //}
-
+// This is User interface.
   if (progPath >= 5 && progPath <= 8) {
     $("#ruby").show();
     $("#java").hide();
