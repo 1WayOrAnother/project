@@ -1,116 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src ="js/jquery-3.2.1.min.js"></script>
-    <script src ="js/bootstrap.min.js"></script>
-    <script src ="js/scripts.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Webpage Survey</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>The programming path that you can chose from</h1>
-        <h3>Please fill out servey below</h3>
-        <div>
-          <form>
-            <div>
-              <label for="name">Name</label>
-              <input type="text" class="form-control"></input>
-              <label for="email">Email</label>
-              <input type="email" class="form-control"></input>
-            </div>
-            <div class="">
-              <label for="path">which lenguage do you wonted to learn</label>
-              <select class="">
-                <option>C#</option>
-                <option>Ruby</option>
-                <option>Java</option>
-              </select>
-            </div>
-            <div class="container">
-              <label for="path">Select from the following </label>
-              <select class="container">
-                <option>I like to develop awessome windows applications developing games and work for Microsof</option>
-                <option>I enjoy social interaction and exited to be part of great creative developer comunity </option>
-                <option>I love Android, and want to build mobile applications or working on backend, servers</option>
-              </select>
-            </div>
-            <div class="container">
-              <label for="path">which lenguage do you prefure to work on</label>
-              <select class="container">
-                <label for="path">what do you enjoi the most?</label>
-                <option>do you familiar with Windows only, would like to stick with it for some time?</option>
-                <option>do you familiar with Lynux and dond mind typing commands in the terminal?</option>
-                <option>you like the language that writes fast & easy and don't mind debugging when nessesery</option>
-              </select>
-            </div>
-          </div>
-          <div class="container">
-            <label for="path">cccc</label>
-            <select class="container">
-              <label for="path">what do you enjoi the most?</label>
-              <option>working in constant creative enviroment</option>
-              <option>working under the sterss but earn big $</option>
-              <option>or working from home and have moderate income</option>
-            </select>
-          </div>
-        </div>
-        <div class="container">
-          <label for="path">which lenguage do you wonted to learn</label>
-          <select class="container">
-            <label for="path">what do you enjoi the most?</label>
-            <option>working in constant creative enviroment</option>
-            <option>working under the sterss but earn big $</option>
-            <option>or working from home and have moderate income</option>
-          </select>
-        </div>
-        <div class="container">
-          <label for="path">which lenguage do you wonted to learn</label>
-          <select class="container">
-            <label for="path">what do you enjoi the most?</label>
-            <option>working in constant creative enviroment</option>
-            <option>working under the sterss but earn big $</option>
-            <option>or working from home and have moderate income</option>
-          </select>
-        </div>
-            <fieldset class="form-group">
-              <legend>Setings</legend>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios" checked>
-                  On site "Ful-time"
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios">
-                  Evening "Part-time"
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios">
-                  Online "Home-schooling"
-                </label>
-              </div>
-            </fieldset>
-            <div class="form-group">
-              <label for="when">When do you want to start</label>
-              <input class="form-control" type="date">
-            </div>
-            <div class="form-group">
-              <label for="color">What's your chice of study?</label>
-              <input>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-          </form>
-        </div>
-      </div>
-      </div>
-        </div>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Web Survey</title>
+</head>
+<!-- Body -->
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-3">Find a path that simply fits you.</h1>
+      <img id="student" src="img/student.jpg" width="850px" height="550px" alt="Apple mac-air laptop hands typing some code">
+    </div>
+    <!-- text -->
+    <div class="">
+      <div calss="row">
+        <p class="font-weight-light"></p><p class="font-weight-bold">Epicodus offers so many different courses,</p> we often get students unsure of what to take after they finish Introduction to Programming. If you're an Epicodus student or anybody wondering which language to learn, the first thing you need to decide
+          is if you want to focus more on front-end or back-end development.
+           Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Epicodus. If you're more
+            interested in back-end development, you have several choices of languages: C#, Java, PHP, and Ruby are all offered at Epicodus. My best advice about how to choose is not to worry too much.</p>
+          <p> Most modern programming languages have more similarities than differences, and Epicodus graduates often find themselves working in different languages than they studied in school.</p>
+          <p> Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job. So don't stress too much about making the right choice! That said, each language has found a bit of a niche,
+            and depending on your interests, you might be attracted to one over another.</p>
+          <h4>"The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does."</h4>
+          <p class="text-muted">By Michael Kaiser-Nyman</p>
+          <br>
+          <p class="lead">Please fill out servey below, Choose only one answer that appeals to you.</p>
       </div>
     </div>
-    </body>
-    </html>
+
+    <!-- question 1 -->
+    <form id="trackform">
+      <div calss="form-group">
+        <label for="progPath1"><strong>1</strong> Which one describes you best?</label>
+        <br>
+        <select class="custom-select" id="describes">
+              <option value="0">click here.</option>
+              <option value="1">I like everything new. I follow tecnologie ternds and like new gadgets.</option>
+              <option value="2">I have a passion for desighn and architecture. O like styling my work-space also.</option>
+              <option value="3">I love everything that is durable/reliable. I'm in awe of every software that works well. </option>
+            </select>
+      </div>
+      <!-- question 2 -->
+      <div class="form-group">
+        <label for="progPath"><strong>2</strong> Where would you like to work?</label>
+        <br>
+        <select class="custom-select" id="job">
+              <option value="0">click here.</option>
+              <option value="1">In the small statap or mid size company. I love to create awessome web applications</option>
+              <option value="2">Desighning in the studio or agency. Something like Nike or Adidas.</option>
+              <option value="3">Bank or goverment, I like some job security, writing code for servers</option>
+            </select>
+      </div>
+      <!-- question 3 -->
+      <div class="form-group">
+        <label for="progPath3"><strong>3</label> What do you value more?</label>
+        <br>
+        <select class="custom-select" id="value">
+                <option value="0">click here.</option>
+                <option value="1">Rsiliance, being oppened to constaint impruvements</option>
+                <option value="2">Talent, being able to innovate and inspire crouds</option>
+                <option value="3">Achivement, cunducting affective strategies</option>
+              </select>
+      </div>
+      <!-- question 4 -->
+      <div class="form-group">
+        <label for="progPath4"><strong>4</label> Choose from the option below on what best describes your character?</label>
+        <br>
+        <select class="custom-select" id="character">
+                  <option value="0">click here.</option>
+                  <option value="1">I like the open source model and open colaboration.</option>
+                  <option value="2">I like User Interface, and love when users benifit from what I create.</option>
+                  <option value="3">I love corporate enviroment, and data science.</option>
+                </select>
+      </div>
+      <!-- question 5 -->
+      <div class="form-group">
+        <label for="progPath5"><strong>5</label> What kind of OS would you use for secure internet browsing?</label>
+        <br>
+        <select class="custom-select" id="OS">
+                    <option value="0">click here.</option>
+                    <option value="1">Google Chrome OS</option>
+                    <option value="2">Apple OS X</option>
+                    <option value="3">Lynux OS</option>
+                  </select>
+      </div>
+      <!-- submit button -->
+
+      <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+    </form>
+
+
+    <!-- Ruby -->
+    <div class="card" style="width: 40rem;" id="ruby" <img class="card-img-top" src="img/ruby.jpg" alt="Vector image of a ....">
+      <<div class="card-body">
+        <h3 class="card-title">Congratulations!</h3>
+        <p class="card-text">You've been mathched with our Ruby on Rails path. Consider a career as a full stack developer making web applications.</p>
+    </div>
+  </div>
+
+  <!-- desighner CSS -->
+  <div class="card" style "width: 40rem;" id="design">
+    <img class="crad-img-top" src="img/css.jpg" alt="Up abowe view of the desighner sitting on the desk with a laptop, CSS logo on the left lover corner" <div class "card-body">
+    <h3 class="card-title">Congratulations!</h3>
+    <p class="card-text">Yuo've been matched with our CSS, Desighned path. You might consider career of front-end developer, desighning, building web applications.</p>
+  </div>
+  </div>
+  
+  <!-- java -->
+  <div class="card" style="width: 40rem;" id="java">
+    <img class="card-img-tp" src="img/java.jpg" alt="Image of the Java logo, human heand typing on the keyboard">
+    <div class="card-body">
+      <h3 class="card-title">Congratulations!</h3>
+      <p class="card-text"> You have been mached with our Java the Android path. Learning lenguage like Java and wrking as a back-end developer ingovermant, Bank or other established institutions.</p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
