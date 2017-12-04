@@ -1,22 +1,36 @@
-body{
-  background-color: #6176A9;
+body {
+  background-color: #d1d0cf;
   font-size: 19px;
   clolor: black;
 }
 
-.jumbotron{
-  background-color: #525971;
+.jumbotron {
+  background-color: #d3af8d;
   color: white;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 60px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 25px black;
+  text-align: center;
 }
-btn{
-  margin-right: 20px;
 
+#student {
+  border: 3px solid black;
 }
-form{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+
+#ruby, #desighn, #java {
+  display: none;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+form {
+  margin-left: 70;
+  margin-right: 70;
+  margin-bottom: 19;
+}
+
+btn {
+  margin-right: 19px;
 }
